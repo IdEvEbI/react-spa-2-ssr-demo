@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function App() {
+function HomePage() {
   const [user, setUser] = useState(null)
 
   useEffect(() => {
@@ -28,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default HomePage
